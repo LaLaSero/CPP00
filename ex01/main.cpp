@@ -62,6 +62,8 @@ int main(void)
 	std::string command;
 	PhoneBook phoneBook;
 
+	std::cout << "Welcome to the phone book" << std::endl;
+	std::cout << "Commands: ADD, SEARCH, EXIT" << std::endl;
 	while (1)
 	{
 		std::cout << "Enter a command: ";
